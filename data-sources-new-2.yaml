@@ -1,0 +1,1315 @@
+version: 1
+file_type: data-source-administration
+name: example
+platform:
+  - all
+data_sources:
+  - data_source_name: Process Creation
+    date_registered: null
+    date_connected: null
+    products:
+      - Sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 4
+      data_field_completeness: 4
+      timeliness: 5
+      consistency: 5
+      retention: 3
+  - data_source_name: Active DNS
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Active Directory Object Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Active Directory Object Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Application Log Content
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Certificate Registration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Active Directory Credential Request
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Active Directory Object Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Active Directory Object Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Service Disable
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Service Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Service Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Service Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Storage Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Storage Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Storage Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Storage Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Storage Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cloud Storage Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Cluster Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Command Execution
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Container Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Container Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Container Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Container Start
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Domain Registration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Drive Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Drive Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Drive Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Driver Load
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Driver Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: File Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: File Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: File Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: File Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Firewall Disable
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Firewall Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Firewall Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Firewall Rule Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Firmware Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Group Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Group Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Group Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Host Status
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Image Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Image Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Image Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Image Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Start
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Instance Stop
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Kernel Module Load
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Logon Session Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Logon Session Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Malware Content
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Malware Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Module Load
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Named Pipe Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Network Connection Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Network Share Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Network Traffic Content
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Network Traffic Flow
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: OS API Execution
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Passive DNS
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Pod Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Pod Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Pod Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Pod Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Process Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Process Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Process Termination
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Process Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Response Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Scheduled Job Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Scheduled Job Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Scheduled Job Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Service Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Service Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Service Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Snapshot Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Snapshot Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Snapshot Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Snapshot Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Snapshot Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Social Media
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: User Account Authentication
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: User Account Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: User Account Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: User Account Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: User Account Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Volume Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Volume Enumeration
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Volume Metadata
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Volume Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: WMI Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Web Credential Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Web Credential Usage
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Windows Registry Key Access
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Windows Registry Key Creation
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Windows Registry Key Modification
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: File Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Response Content
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Script Execution
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Volume Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
+  - data_source_name: Windows Registry Key Deletion
+    date_registered: null
+    date_connected: null
+    products: []
+    available_for_data_analytics: false
+    comment: ''
+    data_quality:
+      device_completeness: 0
+      data_field_completeness: 0
+      timeliness: 0
+      consistency: 0
+      retention: 0
